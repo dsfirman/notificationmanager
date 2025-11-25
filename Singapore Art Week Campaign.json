@@ -38,9 +38,6 @@
       "location": "current",
       "type": "custom",
       "useUserPreferenceForDistance": true,
-      "userMembershipInList": [
-       "NTUC Members"
-      ],
       "custom_locations": [
        {
         "name": "Singapore Art Museum",
@@ -97,9 +94,6 @@
       "location": "destination",
       "type": "custom",
       "useUserPreferenceForDistance": true,
-      "userMembershipInList": [
-       "NTUC Members"
-      ],
       "custom_locations": [
        {
         "name": "Singapore Art Museum",
@@ -150,7 +144,7 @@
       "useUserPreferenceForDistance": false,
       "distance": 1000,
       "userMembershipInList": [
-       "NTUC Members"
+       "NTUC"
       ],
       "custom_locations": [
        {
@@ -182,7 +176,7 @@
       "useUserPreferenceForDistance": false,
       "distance": 1000,
       "userMembershipInList": [
-       "NTUC Members"
+       "NTUC"
       ],
       "custom_locations": [
        {
