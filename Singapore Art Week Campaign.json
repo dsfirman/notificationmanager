@@ -23,7 +23,7 @@
      "unit": "seconds",
      "value": 6
     },
-    "ctaPage": "Inbox",
+    "ctaPage": "inbox",
     "ctaData": {
      "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
      "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
@@ -79,7 +79,7 @@
      "unit": "seconds",
      "value": 6
     },
-    "ctaPage": "Inbox",
+    "ctaPage": "inbox",
     "ctaData": {
      "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
      "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
@@ -127,7 +127,7 @@
     "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid_white.png"
    },
    "controls": {
-    "ctaPage": "Inbox",
+    "ctaPage": "inbox",
     "ctaData": {
      "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
      "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
