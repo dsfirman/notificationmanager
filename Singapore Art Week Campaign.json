@@ -1,249 +1,212 @@
 {
-    "name": "Singapore Art Week",
-    "category": "Event",
-    "campaignPriority": 1,
-    "startTime": "21/11/2025 8:00:00 am",
-    "endTime": "30/12/2025 10:00:00 pm",
-    "createdBy": "Firman",
-    "templates":
-    [
-        {
-            "content": "Vist Singapore Art Week 2026 exhibitions, installations and events near your current location!",
-            "templateType": "HOME_SCREEN_PROMPT",
-            "styles":
-            {
-                "type": "discovery",
-                "dismissible": true,
-                "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid+1.png"
-            },
-            "controls":
-            {
-                "suppressionTime":
-                {
-                    "unit": "seconds",
-                    "value": 1
-                },
-                "autoDismissTime":
-                {
-                    "unit": "seconds",
-                    "value": 6
-                },
-                "ctaPage": "Inbox",
-                "ctaData":
-                {
-                    "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
-                    "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
-                    "globalNotificationType": "SINGAPORE_ART_WEEK_2026",
-                    "globalNotificationCategory": "CUSTOM_INBOX"
-                }
-            },
-            "rules":
-            [
-                {
-                    "ruleId": "PROXIMITY_TO_LOCATION",
-                    "ruleParams":
-                    {
-                        "location": "current",
-                        "type": "custom",
-                        "useUserPreferenceForDistance": true,
-                        "userMembershipInList":
-                        [
-                            "NTUC Members"
-                        ],
-                        "custom_locations":
-                        [
-                            {
-                                "name": "Singapore Art Museum",
-                                "lat": 1.27187782800446,
-                                "long": 103.836752395821,
-                                "placeId":
-                                [
-                                    "ChIJPS0vSwsZ2jERulqTcd4CFDA",
-                                    "ChIJpe0msWkZ2jERlV0MDSlrtDM",
-                                    "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
-                                ]
-                            },
-                            {
-                                "name": "Shop-House by DECK",
-                                "lat": 1.31283406369555,
-                                "long": 103.883173584521,
-                                "placeId":
-                                [
-                                    "ChIJeag9WQAZ2jERHILk0lqjC_U"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "content": "Vist Singapore Art Week 2026 exhibitions, installations and events near your destination!",
-            "templateType": "HOME_SCREEN_PROMPT",
-            "styles":
-            {
-                "type": "discovery",
-                "dismissible": true,
-                "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid+1.png"
-            },
-            "controls":
-            {
-                "suppressionTime":
-                {
-                    "unit": "seconds",
-                    "value": 1
-                },
-                "autoDismissTime":
-                {
-                    "unit": "seconds",
-                    "value": 6
-                },
-                "ctaPage": "Inbox",
-                "ctaData":
-                {
-                    "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
-                    "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
-                    "globalNotificationType": "SINGAPORE_ART_WEEK_2026",
-                    "globalNotificationCategory": "CUSTOM_INBOX"
-                }
-            },
-            "rules":
-            [
-                {
-                    "ruleId": "PROXIMITY_TO_LOCATION",
-                    "ruleParams":
-                    {
-                        "location": "destination",
-                        "type": "custom",
-                        "useUserPreferenceForDistance": true,
-                        "userMembershipInList":
-                        [
-                            "NTUC Members"
-                        ],
-                        "custom_locations":
-                        [
-                            {
-                                "name": "Singapore Art Museum",
-                                "lat": 1.27187782800446,
-                                "long": 103.836752395821,
-                                "placeId":
-                                [
-                                    "ChIJPS0vSwsZ2jERulqTcd4CFDA",
-                                    "ChIJpe0msWkZ2jERlV0MDSlrtDM",
-                                    "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
-                                ]
-                            },
-                            {
-                                "name": "Shop-House by DECK",
-                                "lat": 1.31283406369555,
-                                "long": 103.883173584521,
-                                "placeId":
-                                [
-                                    "ChIJeag9WQAZ2jERHILk0lqjC_U"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "content": "Vist Singapore Art Week 2026 exhibitions, installations and events while en-route to your desination!",
-            "templateType": "ROUTE_SCREEN_PROMPT",
-            "styles":
-            {
-                "type": "discovery",
-                "dismissible": true,
-                "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid+1.png"
-            },
-            "controls":
-            {
-                "ctaPage": "Inbox",
-                "ctaData":
-                {
-                    "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
-                    "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
-                    "globalNotificationType": "SINGAPORE_ART_WEEK_2026",
-                    "globalNotificationCategory": "CUSTOM_INBOX"
-                }
-            },
-            "rules":
-            [
-                {
-                    "ruleId": "PROXIMITY_TO_LOCATION",
-                    "ruleParams":
-                    {
-                        "location": "current",
-                        "type": "custom",
-                        "useUserPreferenceForDistance": false,
-                        "distance": 1000,
-                        "userMembershipInList":
-                        [
-                            "NTUC Members"
-                        ],
-                        "custom_locations":
-                        [
-                            {
-                                "name": "Singapore Art Museum",
-                                "lat": 1.27187782800446,
-                                "long": 103.836752395821,
-                                "placeId":
-                                [
-                                    "ChIJPS0vSwsZ2jERulqTcd4CFDA",
-                                    "ChIJpe0msWkZ2jERlV0MDSlrtDM",
-                                    "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
-                                ]
-                            },
-                            {
-                                "name": "Shop-House by DECK",
-                                "lat": 1.31283406369555,
-                                "long": 103.883173584521,
-                                "placeId":
-                                [
-                                    "ChIJeag9WQAZ2jERHILk0lqjC_U"
-                                ]
-                            }
-                        ]
-                    }
-                },
-                {
-                    "ruleId": "PROXIMITY_TO_LOCATION",
-                    "ruleParams":
-                    {
-                        "location": "destination",
-                        "type": "custom",
-                        "useUserPreferenceForDistance": false,
-                        "distance": 1000,
-                        "userMembershipInList":
-                        [
-                            "NTUC Members"
-                        ],
-                        "custom_locations":
-                        [
-                            {
-                                "name": "Singapore Art Museum",
-                                "lat": 1.27187782800446,
-                                "long": 103.836752395821,
-                                "placeId":
-                                [
-                                    "ChIJPS0vSwsZ2jERulqTcd4CFDA",
-                                    "ChIJpe0msWkZ2jERlV0MDSlrtDM",
-                                    "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
-                                ]
-                            },
-                            {
-                                "name": "Shop-House by DECK",
-                                "lat": 1.31283406369555,
-                                "long": 103.883173584521,
-                                "placeId":
-                                [
-                                    "ChIJeag9WQAZ2jERHILk0lqjC_U"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ]
-        }
-    ]
+ "name": "Singapore Art Week",
+ "category": "Event",
+ "campaignPriority": 1,
+ "startTime": "21/11/2025 8:00:00 am",
+ "endTime": "30/12/2025 10:00:00 pm",
+ "createdBy": "Firman",
+ "templates": [
+  {
+   "content": "Vist Singapore Art Week 2026 exhibitions, installations and events near your current location!",
+   "templateType": "HOME_SCREEN_PROMPT",
+   "styles": {
+    "type": "discovery",
+    "dismissible": true,
+    "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid_white.png"
+   },
+   "controls": {
+    "suppressionTime": {
+     "unit": "seconds",
+     "value": 1
+    },
+    "autoDismissTime": {
+     "unit": "seconds",
+     "value": 6
+    },
+    "ctaPage": "Inbox",
+    "ctaData": {
+     "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
+     "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
+     "globalNotificationType": "SINGAPORE_ART_WEEK_2026",
+     "globalNotificationCategory": "CUSTOM_INBOX"
+    }
+   },
+   "rules": [
+    {
+     "ruleId": "PROXIMITY_TO_LOCATION",
+     "ruleParams": {
+      "location": "current",
+      "type": "custom",
+      "useUserPreferenceForDistance": true,
+      "userMembershipInList": [
+       "NTUC Members"
+      ],
+      "custom_locations": [
+       {
+        "name": "Singapore Art Museum",
+        "lat": 1.27187782800446,
+        "long": 103.836752395821,
+        "placeId": [
+         "ChIJPS0vSwsZ2jERulqTcd4CFDA",
+         "ChIJpe0msWkZ2jERlV0MDSlrtDM",
+         "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
+        ]
+       },
+       {
+        "name": "Shop-House by DECK",
+        "lat": 1.31283406369555,
+        "long": 103.883173584521,
+        "placeId": [
+         "ChIJeag9WQAZ2jERHILk0lqjC_U"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "content": "Vist Singapore Art Week 2026 exhibitions, installations and events near your destination!",
+   "templateType": "HOME_SCREEN_PROMPT",
+   "styles": {
+    "type": "discovery",
+    "dismissible": true,
+    "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid_white.png"
+   },
+   "controls": {
+    "suppressionTime": {
+     "unit": "seconds",
+     "value": 1
+    },
+    "autoDismissTime": {
+     "unit": "seconds",
+     "value": 6
+    },
+    "ctaPage": "Inbox",
+    "ctaData": {
+     "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
+     "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
+     "globalNotificationType": "SINGAPORE_ART_WEEK_2026",
+     "globalNotificationCategory": "CUSTOM_INBOX"
+    }
+   },
+   "rules": [
+    {
+     "ruleId": "PROXIMITY_TO_LOCATION",
+     "ruleParams": {
+      "location": "destination",
+      "type": "custom",
+      "useUserPreferenceForDistance": true,
+      "userMembershipInList": [
+       "NTUC Members"
+      ],
+      "custom_locations": [
+       {
+        "name": "Singapore Art Museum",
+        "lat": 1.27187782800446,
+        "long": 103.836752395821,
+        "placeId": [
+         "ChIJPS0vSwsZ2jERulqTcd4CFDA",
+         "ChIJpe0msWkZ2jERlV0MDSlrtDM",
+         "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
+        ]
+       },
+       {
+        "name": "Shop-House by DECK",
+        "lat": 1.31283406369555,
+        "long": 103.883173584521,
+        "placeId": [
+         "ChIJeag9WQAZ2jERHILk0lqjC_U"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "content": "Vist Singapore Art Week 2026 exhibitions, installations and events while en-route to your desination!",
+   "templateType": "ROUTE_SCREEN_PROMPT",
+   "styles": {
+    "type": "discovery",
+    "dismissible": true,
+    "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid_white.png"
+   },
+   "controls": {
+    "ctaPage": "Inbox",
+    "ctaData": {
+     "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
+     "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
+     "globalNotificationType": "SINGAPORE_ART_WEEK_2026",
+     "globalNotificationCategory": "CUSTOM_INBOX"
+    }
+   },
+   "rules": [
+    {
+     "ruleId": "PROXIMITY_TO_LOCATION",
+     "ruleParams": {
+      "location": "current",
+      "type": "custom",
+      "useUserPreferenceForDistance": false,
+      "distance": 1000,
+      "userMembershipInList": [
+       "NTUC Members"
+      ],
+      "custom_locations": [
+       {
+        "name": "Singapore Art Museum",
+        "lat": 1.27187782800446,
+        "long": 103.836752395821,
+        "placeId": [
+         "ChIJPS0vSwsZ2jERulqTcd4CFDA",
+         "ChIJpe0msWkZ2jERlV0MDSlrtDM",
+         "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
+        ]
+       },
+       {
+        "name": "Shop-House by DECK",
+        "lat": 1.31283406369555,
+        "long": 103.883173584521,
+        "placeId": [
+         "ChIJeag9WQAZ2jERHILk0lqjC_U"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "ruleId": "PROXIMITY_TO_LOCATION",
+     "ruleParams": {
+      "location": "destination",
+      "type": "custom",
+      "useUserPreferenceForDistance": false,
+      "distance": 1000,
+      "userMembershipInList": [
+       "NTUC Members"
+      ],
+      "custom_locations": [
+       {
+        "name": "Singapore Art Museum",
+        "lat": 1.27187782800446,
+        "long": 103.836752395821,
+        "placeId": [
+         "ChIJPS0vSwsZ2jERulqTcd4CFDA",
+         "ChIJpe0msWkZ2jERlV0MDSlrtDM",
+         "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
+        ]
+       },
+       {
+        "name": "Shop-House by DECK",
+        "lat": 1.31283406369555,
+        "long": 103.883173584521,
+        "placeId": [
+         "ChIJeag9WQAZ2jERHILk0lqjC_U"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
 }
