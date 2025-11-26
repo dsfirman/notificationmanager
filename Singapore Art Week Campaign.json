@@ -126,7 +126,7 @@
   },
   {
    "content": "Vist Singapore Art Week 2026 exhibitions, installations and events while en-route to your desination!",
-   "templateType": "ROUTE_SCREEN_PROMPT",
+   "templateType": "ROUTE_PLANNING_PROMPT",
    "styles": {
     "type": "discovery",
     "dismissible": true,
