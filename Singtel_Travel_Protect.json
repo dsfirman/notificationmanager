@@ -1,0 +1,220 @@
+{
+ "campaignId": "96DD1371-8F4A-4BBD-B96C-C24C67B44CF1",
+ "status": "active",
+ "name": "Singapore Art Week",
+ "category": "Event",
+ "campaignPriority": 1,
+ "startTime": "2025-11-21T00:00:00.000Z",
+ "endTime": "2025-12-30T14:00:00.000Z",
+ "createdBy": "Firman",
+ "templates": [
+  {
+   "templateId": "D8C6E181-2823-47AA-A426-939F7FF10785",
+   "templateType": "INBOX_INAPP_PUSH",
+   "content": "",
+   "title": "Heading overseas?",
+   "body": "Get a discount on travel insurance from Singtel Travel Protect, underwritten by Great Eastern!",
+   "globalNotificationType": "MP_SINGTEL_TRAVEL_LAUNCH_V1",
+   "styles": {
+    "type": "informational",
+    "dismissible": true,
+    "icon": "https://ap-southeast-1.console.aws.amazon.com/s3/object/breeze-common-assets?region=ap-southeast-1&prefix=assets/voucher/singtel_icon.png\n\n\n\n\n\n"
+   },
+   "controls": {
+    "suppressionTime": {
+     "unit": "second",
+     "value": 60
+    },
+    "autoDismissTime": {
+     "unit": "second",
+     "value": 5
+    },
+    "maxCount": 1
+   },
+   "rules": [
+    {
+     "ruleId": "APP_EVENT",
+     "ruleParams": {
+      "userIds": [
+       "e6f26e83-3e9a-40c3-b3e4-b875667c0de8",
+       "9b736950-3d3a-42ee-bf1a-20fa57462459",
+       "5285c01d-5e28-4e6d-8a0d-e2fcb3a6d0a0",
+       "d7fc4f30-9e46-4b2f-88c2-22d43f44377d",
+       "b6c84f24-f5f0-42ed-8125-d3943b64c4b2"
+      ],
+      "appEvent": [
+       {
+        "screenName": "[voucher_details]",
+        "eventName": "user_click",
+        "eventValue": ":claim",
+        "data": "",
+        "count": 2
+       },
+       {
+        "screenName": "[event_details]",
+        "eventName": "user_click",
+        "eventValue": "[completed_activity]:scan_gift_redemption_qr_code",
+        "data": "Singtel_Amazing_Race",
+        "count": 1
+       },
+       {
+        "screenName": "[event_details]",
+        "eventName": "user_click",
+        "eventValue": ":scan_gift_redemption_qr_code",
+        "data": "Singtel_Amazing_Race",
+        "count": 1
+       },
+       {
+        "screenName": "[event_details]",
+        "eventName": "user_click",
+        "eventValue": ":gift_redeemed_external_link",
+        "data": "Singtel_Amazing_Race",
+        "count": 1
+       },
+       {
+        "screenName": "",
+        "eventName": "system_event",
+        "eventValue": "gift_redeemed",
+        "data": "Singtel_Amazing_Race",
+        "count": 1
+       }
+      ]
+     }
+    },
+    {
+     "ruleId": "PROXIMITY_TO_LOCATION",
+     "ruleParams": {
+      "type": "custom",
+      "useUserPreferenceForDistance": false,
+      "distance": 1000,
+      "userMembershipInList": [
+       "NTUC"
+      ],
+      "location": [
+       "destination",
+       "source",
+       "waypoint"
+      ],
+      "custom_locations": [
+       {
+        "name": "Singapore Art Museum",
+        "lat": 1.27187782800446,
+        "long": 103.836752395821,
+        "placeId": [
+         "ChIJPS0vSwsZ2jERulqTcd4CFDA",
+         "ChIJpe0msWkZ2jERlV0MDSlrtDM",
+         "ChIJQV9bZAAZ2jERc5kvH7H-8kc"
+        ]
+       },
+       {
+        "name": "Shop-House by DECK",
+        "lat": 1.31283406369555,
+        "long": 103.883173584521,
+        "placeId": [
+         "ChIJeag9WQAZ2jERHILk0lqjC_U"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "templateId": "D8C6E181-2823-47AA-A426-939F7FF10785",
+   "templateType": "HOME_SCREEN_PROMPT",
+   "content": "Get a discount on travel insurance from Singtel Travel Protect, underwritten by Great Eastern!",
+   "title": "",
+   "body": "",
+   "globalNotificationType": "",
+   "styles": {
+    "type": "discovery",
+    "dismissible": true,
+    "icon": "https://breeze-common-assets.s3.ap-southeast-1.amazonaws.com/assets/campaigns/calendar-star-solid_white.png"
+   },
+   "controls": {
+    "suppressionTime": {
+     "unit": "second",
+     "value": 60
+    },
+    "autoDismissTime": {
+     "unit": "second",
+     "value": 5
+    },
+    "ctaPage": "inbox",
+    "ctaData": {
+     "title": "Singapore Art Week 2026 - Explore Art Festivals & Events!",
+     "body": "Singapore Art Week (SAW) returns from 22 to 31 January 2026, igniting the city with creative energy around Marina Bay, Civic District and Tanjong Pagar areas. ",
+     "globalNotificationType": "SINGAPORE_ART_WEEK_2026",
+     "globalNotificationCategory": "CUSTOM_INBOX"
+    }
+   },
+   "rules": [
+    {
+     "ruleId": "PROXIMITY_TO_LOCATION",
+     "ruleParams": {
+      "type": "custom",
+      "useUserPreferenceForDistance": true,
+      "location": [
+       "current",
+       "destination"
+      ],
+      "custom_locations": [
+       {
+        "name": "Changi Airport",
+        "lat": 1.27187782800446,
+        "long": 103.836752395821,
+        "placeId": [
+         "ChIJ483Qk9YX2jERA0VOQV7d1t",
+         " ChIJ3-YNfMc82jERcAyE-ne46ps"
+        ]
+       },
+       {
+        "name": "Seletar Airport",
+        "lat": 1.31283406369555,
+        "long": 103.883173584521,
+        "placeId": [
+         "ChIJma5ByDQU2jERE__EHPCHWQ0",
+         " ChIJNc59ZcwV2jERqH9ZjI2Ovx8"
+        ]
+       },
+       {
+        "name": "Harbour Front Ferry Terminal",
+        "lat": 1.26396991176004,
+        "long": 103.820243325181,
+        "placeId": [
+         "ChIJGXXAPOMb2jERysallYC1SaY"
+        ]
+       },
+       {
+        "name": "Tanah Merah Ferry Terminal",
+        "lat": 1.31226339988909,
+        "long": 103.988211916284,
+        "placeId": [
+         "ChIJG6x0bQAj2jERfkEHvcedyig",
+         " ChIJEcGYZ1Aj2jER32K7GsOvki",
+         " ChIJz1vQEkYj2jER5sTymvMZ8hU"
+        ]
+       },
+       {
+        "name": "Woodlands checkpoint",
+        "lat": "1.4456467873993",
+        "long": 103.768595869231,
+        "placeId": [
+         "ChIJcax8Ev0S2jER7fTRxrPHz2w"
+        ]
+       },
+       {
+        "name": "Tuas checkpoint",
+        "lat": 1.34942405517094,
+        "long": 103.636127935782,
+        "placeId": [
+         "ChIJJz7FNzUP2jER9z8j__MWKHY"
+        ]
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}
